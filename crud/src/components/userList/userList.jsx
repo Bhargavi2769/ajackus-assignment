@@ -14,7 +14,7 @@ class UserList extends React.Component {
         modalOpen: false,
         error: null,
         currentPage: 1,
-        usersPerPage: 3, // Adjust number of users per page here
+        usersPerPage: 3,
     };
 
     componentDidMount() {
@@ -117,7 +117,6 @@ class UserList extends React.Component {
         this.setState({ modalOpen: false, editingUserId: null });
     };
 
-    // Pagination handlers
     handleNextPage = () => {
         const { currentPage, usersPerPage, users } = this.state;
         const totalPages = Math.ceil(users.length / usersPerPage);
