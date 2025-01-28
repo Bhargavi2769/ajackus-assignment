@@ -152,7 +152,7 @@ class UserList extends React.Component {
                 <Card variant="outlined" sx={{ maxWidth: 900, margin: "auto" }}>
                     <CardContent>
                         <Typography variant="h4" gutterBottom align="center">
-                            Users List
+                            User Management Dashboard
                         </Typography>
                         {error && <Typography color="error" align="center">{error}</Typography>}
 
