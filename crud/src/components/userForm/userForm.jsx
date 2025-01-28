@@ -16,7 +16,6 @@ class UserForm extends React.Component {
     let errors = {};
     let formIsValid = true;
 
-    // Check for required fields
     if (!form.firstName) {
       errors.firstName = "* First Name is required";
       formIsValid = false;
