@@ -144,7 +144,7 @@ The application is deployed on Vercel and can be accessed at:
 ## Dependencies
 - React: Frontend library.
 - Material-UI: Styling and layout.
-- Axios: HTTP client for API interactions.
+- Fetch: HTTP client for API interactions.
 - React Toastify: Toast notification library.
 
 ---
